@@ -1,8 +1,8 @@
 import React from 'react';
-import Menu from './components/Menu';
-import Legal from './components/Legal';
-import TitleLayout from './layouts/TitleLayout';
-import Auxil from './components/Auxil';
+import Menu from 'components/Menu';
+import Legal from 'components/Legal';
+import TitleLayout from 'layouts/TitleLayout';
+import Auxil from 'components/utilities/Auxil';
 import './App.css';
 
 export const app = () => {
