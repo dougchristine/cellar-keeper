@@ -1,14 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Menu from './components/Menu';
+import Legal from './components/Legal';
+import TitleLayout from './layouts/TitleLayout';
+import Auxil from './components/Auxil';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        
-      </div>
-    );
-  }
+export const app = () => {
+  return (
+    <Auxil>
+      <header>
+        <Menu />
+      </header>
+
+      <main>
+        <TitleLayout />
+      </main>
+
+      <footer>
+        <Legal />
+      </footer>
+    </Auxil>
+  );
 }
 
-export default App;
+export default app;
