@@ -149,6 +149,7 @@ module.exports = {
       'react-native': 'react-native-web',
       'components': path.resolve(appRootPath + '/src/components'),
       'layouts': path.resolve(appRootPath + '/src/layouts'),
+      'stylesheets': path.resolve(appRootPath + '/src/stylesheets')
     },
     plugins: [
       // Adds support for installing with Plug'n'Play, leading to faster installs and adding
