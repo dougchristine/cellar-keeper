@@ -1,0 +1,37 @@
+.SideMenuButton {
+    width: 4rem;
+    height: 4rem;
+    background-color: $color-background-light;
+    border-radius: 50%;
+    position: relative;
+}
+
+.SideMenuIcon {
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 1rem;
+
+    &,
+    &::before,
+    &::after {
+        width: 2rem;
+        height: 2px;
+        background-color: $color-font-primary;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+    }
+
+    &::before,
+    &::after {
+        content: "";
+    }
+
+    &::before {
+        top: -.6rem;
+    }
+
+    &::after {
+        top: .6rem;
+    }
+}

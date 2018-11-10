@@ -1,0 +1,11 @@
+.Header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+    background: linear-gradient(
+        to bottom,
+        rgba($color-primary-light, 1),
+        rgba($color-primary-dark, 1)
+    );
+}

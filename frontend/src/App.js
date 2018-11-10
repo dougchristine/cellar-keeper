@@ -1,15 +1,18 @@
 import React from 'react';
-import Menu from 'components/Menu';
+import Logo from 'components/ui/Logo';
+import SideNavButton from 'components/ui/SideNavButton';
+import UserIcon from 'components/ui/UserIcon';
 import Legal from 'components/Legal';
 import TitleLayout from 'layouts/TitleLayout';
 import Auxil from 'components/utilities/Auxil';
-import './App.css';
 
 export const app = () => {
   return (
     <Auxil>
-      <header>
-        <Menu />
+      <header className="Header">
+        <Logo />
+        <UserIcon />
+        <SideNavButton />
       </header>
 
       <main>
