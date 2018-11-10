@@ -1,7 +1,11 @@
 import React from 'react';
 
 export const userIcon = () => {
-    return <span>D C</span>
+    return (
+        <div className="user-icon">
+            <span>D C</span>
+        </div>
+    )
 }
 
 export default userIcon;

@@ -25,7 +25,7 @@ const publicUrl = '';
 // Get environment variables to inject into our app.
 const env = getClientEnvironment(publicUrl);
 
-const appRootPath = path.resolve( __dirname + '../../');
+const appRootPath = path.resolve(__dirname + '/../');
 // Check if TypeScript is setup
 const useTypeScript = fs.existsSync(paths.appTsConfig);
 
