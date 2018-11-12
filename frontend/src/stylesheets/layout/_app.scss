@@ -2,10 +2,19 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 7vh;
+    height: 6rem;
     background: linear-gradient(
         to bottom,
         rgba($color-primary-light, 1),
         rgba($color-primary-dark, 1)
     );
+
+    &__controls {
+        display: flex;
+        align-items: center;
+
+        & > * {
+            margin-left: 2rem;
+        }
+    }
 }

@@ -1,0 +1,20 @@
+.user-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: linear-gradient(
+        to bottom right,
+        rgba(218, 94, 243, 1),
+        rgba(181, 39, 209, 1)
+    );
+    text-align: center;
+    padding-top: .8rem;
+    display: inline-block;
+
+    & > span {
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: yellow;
+    }
+}

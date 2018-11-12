@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from 'components/ui/Logo';
 import SideNavButton from 'components/ui/SideNavButton';
+import AddWineButton from 'components/ui/AddWineButton'
 import UserIcon from 'components/ui/UserIcon';
 import Legal from 'components/Legal';
 import TitleLayout from 'layouts/TitleLayout';
@@ -11,8 +12,11 @@ export const app = () => {
     <Auxil>
       <header className="Header">
         <Logo />
-        <UserIcon />
-        <SideNavButton />
+        <div className="Header__controls">
+          <AddWineButton />
+          <UserIcon />
+          <SideNavButton />
+        </div>
       </header>
 
       <main>
