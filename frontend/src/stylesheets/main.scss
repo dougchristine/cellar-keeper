@@ -2,9 +2,13 @@
 
 @import "base/base";
 
-@import "layout/app";
+@import "layouts/app";
 
-@import "components/logo";
-@import "components/sideNavButton";
-@import "components/userIcon";
-@import "components/addWineButton";
+@import "components/menu";
+
+@import "components/ui/logo";
+@import "components/ui/userIcon";
+
+@import "components/ui/menuButton";
+@import "components/ui/menuButton__addWine";
+@import "components/ui/menuButton__sideNav";

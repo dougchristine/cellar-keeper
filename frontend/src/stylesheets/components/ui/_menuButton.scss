@@ -1,0 +1,14 @@
+.menu-button {
+    background-color: $color-background-light;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    position: relative;
+    display: inline-block;
+
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+    }
+}

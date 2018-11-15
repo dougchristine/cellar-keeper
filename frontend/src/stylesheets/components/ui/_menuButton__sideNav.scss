@@ -1,16 +1,7 @@
-.SideMenuButton {
-    width: 4rem;
-    height: 4rem;
-    background-color: $color-background-light;
-    border-radius: 50%;
+.menu-button__side-nav {
     position: relative;
-    display: inline-block;
-}
-
-.SideMenuIcon {
-    position: relative;
-    margin-top: 2rem;
-    margin-left: 1rem;
+    margin-top: 1.7rem;
+    margin-left: .8rem;
 
     &,
     &::before,
