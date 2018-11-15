@@ -1,0 +1,10 @@
+.text-link {
+    font-size: inherit;
+    color: $color-font-primary;
+
+    &,
+    &:visited,
+    &:link {
+        text-decoration: none;
+    }
+}

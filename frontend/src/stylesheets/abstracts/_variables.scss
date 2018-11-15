@@ -1,7 +1,10 @@
 // COLORS
-$color-primary: #ADC2E6;
-$color-primary-light: #BCD3FB;
-$color-primary-dark: #8EA1C0;
+$color-primary: #B9CDDA;
+$color-primary-light: lighten(#BCD3FB, 5%);
+$color-primary-dark: darken(#8EA1C0, 1%);
+
+$color-secondary: #A6D8D4;
+$color-secondary-dark: darken(#A6D8D4, 15%);
 
 $color-background-light: #EBECED;
 

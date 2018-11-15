@@ -1,13 +1,13 @@
 import React from 'react';
-import Legal from 'components/Legal';
 import TitleLayout from 'layouts/TitleLayout';
 import Menu from 'components/Menu';
+import Footer from 'components/Footer';
 import Auxil from 'components/utilities/Auxil';
 
 export const app = () => {
   return (
     <Auxil>
-      <header className="Header">
+      <header>
         <Menu />
       </header>
 
@@ -16,7 +16,7 @@ export const app = () => {
       </main>
 
       <footer>
-        <Legal />
+        <Footer />
       </footer>
     </Auxil>
   );

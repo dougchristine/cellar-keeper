@@ -1,0 +1,12 @@
+.footer {
+    background-color: $color-secondary-dark;
+    height: 14rem;
+    color: $color-font-primary;
+    font-size: 1.8rem;
+    font-family: $font-logo-primary;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
