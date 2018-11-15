@@ -5,7 +5,17 @@ const footer = () => {
     return (
         <div className="footer">
             <div className="footer__links">
-                Test it!
+                <TextLink render={textLink => (
+                    <span>Terms of use</span>
+                )} />
+                |
+                <TextLink render={textLink => (
+                    <span>Disclaimer</span>
+                )} />
+                |
+                <TextLink render={textLink => (
+                    <span>Privacy Policy</span>
+                )} />
             </div>
             <div className="footer__copyright">
                 Cellar Keeper  &copy; 2018

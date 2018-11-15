@@ -1,14 +1,15 @@
 // COLORS
-$color-primary: #B9CDDA;
-$color-primary-light: lighten(#BCD3FB, 5%);
-$color-primary-dark: darken(#8EA1C0, 1%);
+$color-primary: #AFBFC0;
+$color-primary-light: lighten(#AFBFC0, 10%);
+$color-primary-dark: darken(#AFBFC0, 10%);
 
-$color-secondary: #A6D8D4;
-$color-secondary-dark: darken(#A6D8D4, 15%);
+$color-secondary: #818479;
+$color-secondary-dark: darken(#818479, 15%);
 
-$color-background-light: #EBECED;
+$color-background-light: #f2f2f2;
 
-$color-font-primary: #37393E;
+$color-font-primary: #43454c;
+$color-font-secondary: #f2f2f2;
 
 // FONTS
 $font-logo-primary: 'Righteous', cursive;
