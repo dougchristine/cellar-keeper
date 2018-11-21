@@ -4,22 +4,20 @@ import Menu from 'components/Menu';
 import Footer from 'components/Footer';
 import Auxil from 'components/utilities/Auxil';
 
-export const app = () => {
-  return (
+export const app = () => (
     <Auxil>
-      <header>
-        <Menu />
-      </header>
+        <header>
+            <Menu />
+        </header>
 
-      <main>
-        <Landing />
-      </main>
+        <main>
+            <Landing />
+        </main>
 
-      <footer>
-        <Footer />
-      </footer>
+        <footer>
+            <Footer />
+        </footer>
     </Auxil>
-  );
-}
+);
 
 export default app;
