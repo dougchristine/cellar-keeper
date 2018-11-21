@@ -8,7 +8,7 @@ export const menuButton = props => (
 );
 
 menuButton.propTypes = {
-    render: PropTypes.func.isRequired,
+    render: PropTypes.func.isRequired
 };
 
 export default menuButton;

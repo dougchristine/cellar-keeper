@@ -89,7 +89,7 @@
       "no-trailing-spaces": "error",
       "no-multiple-empty-lines": "error",
       "comma-style": "error",
-      "comma-dangle": ["error", "always"],
+      "comma-dangle": ["error", "never"],
       "no-new-wrappers": "error",
       "radix": "error",
       "id-length": "error",

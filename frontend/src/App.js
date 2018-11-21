@@ -3,6 +3,8 @@ import Landing from 'layouts/Landing';
 import Menu from 'components/Menu';
 import Footer from 'components/Footer';
 import Auxil from 'components/utilities/Auxil';
+import { Route, Switch } from 'react-router-dom';
+import SignUp from 'layouts/SignUp';
 
 export const app = () => (
     <Auxil>
@@ -11,7 +13,10 @@ export const app = () => (
         </header>
 
         <main>
-            <Landing />
+            <Switch>
+                <Route path='/sign-up' component={SignUp} />
+                <Route path='/' exact component={Landing} />
+            </Switch>
         </main>
 
         <footer>

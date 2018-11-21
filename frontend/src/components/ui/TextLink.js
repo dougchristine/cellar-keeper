@@ -8,7 +8,7 @@ export const textLink = props => (
 );
 
 textLink.propTypes = {
-    render: PropTypes.func.isRequired,
+    render: PropTypes.func.isRequired
 };
 
 export default textLink;
