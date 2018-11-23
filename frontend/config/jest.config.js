@@ -24,7 +24,8 @@ module.exports = {
     ],
     "moduleNameMapper": {
         "^react-native$": "react-native-web",
-        "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+        "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
+        "^@(.*)$": "<rootDir>/src/store/$1"
     },
     "moduleFileExtensions": [
         "web.js",

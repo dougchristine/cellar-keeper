@@ -222,7 +222,11 @@ module.exports = {
       'react-native': 'react-native-web',
       'components': path.resolve(appRootPath + '/src/components'),
       'layouts': path.resolve(appRootPath + '/src/layouts'),
-      'stylesheets': path.resolve(appRootPath + '/src/stylesheets')
+      'stylesheets': path.resolve(appRootPath + '/src/stylesheets'),
+      'interfaces': path.resolve(appRootPath + '/src/interfaces'),
+      '@reducers': path.resolve(appRootPath + '/src/store/reducers'),
+      '@actions': path.resolve(appRootPath + '/src/store/actions'),
+      '@services': path.resolve(appRootPath + '/src/store/services')
     },
     plugins: [
       // Adds support for installing with Plug'n'Play, leading to faster installs and adding

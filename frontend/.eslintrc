@@ -106,6 +106,9 @@
         "navigator": true,
         "console": false,
         "fetch": false,
-        "document": true
+        "document": true,
+        "Symbol": false,
+        "describe": false,
+        "it": false
     }
   }
